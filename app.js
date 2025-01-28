@@ -15,7 +15,7 @@ var hotelsRouter = require('./routes/hotels');
 var roomsRouter = require('./routes/rooms');
 
 var db = require("./models");
-db.sequelize.sync({ force: false })
+db.sequelize.sync({ force: false})
 
 var app = express();
 
